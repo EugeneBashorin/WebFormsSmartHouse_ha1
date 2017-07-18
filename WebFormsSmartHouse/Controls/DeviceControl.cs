@@ -505,6 +505,7 @@ namespace WebFormsSmartHouse.Controls
             Initializer();
             placeHolderList.Controls.Add(textAreaList);
         }
+
         //TEMPERATURE//
         protected void SetTemperature_Click(object sender, EventArgs e)
         {
@@ -529,7 +530,6 @@ namespace WebFormsSmartHouse.Controls
             Controls.Clear();
             Initializer();
             placeHolderTemperError.Controls.Add(temperError);
-
         }
 
         protected void IncreaseTemperature_Click(object sender, EventArgs e)

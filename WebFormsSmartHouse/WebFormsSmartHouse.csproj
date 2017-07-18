@@ -66,6 +66,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\bg\4.jpg" />
+    <Content Include="App_Themes\bg\bg29.jpg" />
+    <Content Include="App_Themes\bg\bg32.jpg" />
+    <Content Include="App_Themes\bg\bg33.jpg" />
+    <Content Include="App_Themes\bg\bg37.jpg" />
+    <Content Include="App_Themes\bg\bg47.jpg" />
+    <Content Include="App_Themes\bg\bg49.jpg" />
+    <Content Include="App_Themes\offAC.png" />
+    <Content Include="App_Themes\offLamp.png" />
+    <Content Include="App_Themes\onAC.png" />
+    <Content Include="App_Themes\onLamp.png" />
+    <Content Include="App_Themes\RadiatorOff.png" />
+    <Content Include="App_Themes\RadiatorOn.png" />
+    <Content Include="App_Themes\radioOff.png" />
+    <Content Include="App_Themes\radioOn.png" />
+    <Content Include="App_Themes\TVoff.png" />
+    <Content Include="App_Themes\TVon.png" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -77,6 +94,8 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="ReadRadioChannel.txt" />
+    <Content Include="ReadTVChannel.txt" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
